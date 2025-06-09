@@ -1,0 +1,140 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.container {
+  background-color: #1c1c1e;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+  width: 380px;
+  text-align: center;
+  border: 1px solid #2c2c2e;
+}
+
+
+.container h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #e94560;
+  letter-spacing: 1px;
+}
+
+
+form p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #cccccc;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2c2c2e;
+  color: #fff;
+  border: 1px solid #444;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #e94560;
+  outline: none;
+}
+
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.button-group button[type="submit"] {
+  flex: 1;
+  padding: 12px;
+  background-color: #e94560;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.button-group button[type="submit"]:hover {
+  background-color: #ff4d6d;
+}
+
+
+#refreshBtn {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background-color: transparent;
+  color: #e94560;
+  border: 2px solid #1c1c1e;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#refreshBtn:hover {
+  background-color: #e94560;
+  color: white;
+}
+
+
+#results {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+
+#weight-guide {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #333;
+  text-align: left;
+}
+
+#weight-guide h3 {
+  font-size: 16px;
+  color: #e94560;
+  margin-bottom: 8px;
+}
+
+#weight-guide p {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 4px;
+}
